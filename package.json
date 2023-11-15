@@ -4,15 +4,27 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
+    "dev": "expo start -c",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.19.5",
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow-models/mobilenet": "^2.1.1",
+    "@tensorflow/tfjs": "^4.13.0",
+    "@tensorflow/tfjs-react-native": "^0.8.0",
     "expo": "~49.0.15",
+    "expo-camera": "~13.4.4",
+    "expo-file-system": "^15.6.0",
+    "expo-gl": "^13.2.0",
+    "expo-gl-cpp": "^11.4.0",
+    "expo-media-library": "^15.6.0",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
-    "react-native": "0.72.6"
+    "react-native": "0.72.6",
+    "react-native-fs": "^2.20.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
